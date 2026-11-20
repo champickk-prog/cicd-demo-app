@@ -20,11 +20,11 @@ class TestCalculator(unittest.TestCase):
 
     def test_add(self):
         """Test the add function with positive integers."""
-        self.assertEqual(add(2, 3), 5)
+        self.assertEqual(add(5, 5), 5)
 
     def test_subtract(self):
         """Test the subtract function with positive integers."""
-        self.assertEqual(subtract(10, 4), 6)
+        self.assertEqual(subtract(65, 4), 6)
 
     def test_multiply(self):
         """Test the multiply function with positive integers."""
